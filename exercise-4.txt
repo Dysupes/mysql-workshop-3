@@ -1,0 +1,4 @@
+SELECT firstName  FROM Entry 
+    JOIN AddressBook 
+    ON Entry.addressBookid=AddressBook.id 
+    where AddressBook.name='Pharetra Ut Limited';

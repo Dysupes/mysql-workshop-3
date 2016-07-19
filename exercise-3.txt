@@ -1,0 +1,3 @@
+select count(*) as occurence_totals, 
+    Lower(country) as Country from Address
+    group by country order by occurence_totals  desc;

@@ -1,0 +1,4 @@
+select count(subtype) from Phone
+    join Entry
+    on Entry.id=Phone.entryId
+    where (birthday > "1950-10-1" AND birthday < "1960-10-1");

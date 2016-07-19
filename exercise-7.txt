@@ -1,0 +1,2 @@
+select distinct substring_index(content, '@', -1)
+    from ElectronicMail;

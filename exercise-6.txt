@@ -1,0 +1,5 @@
+SELECT content from Phone
+    JOIN Entry
+    ON Entry.id=Phone.entryId
+    WHERE Entry.firstName='Charlotte' AND
+    Entry.lastName='Jenkins';
